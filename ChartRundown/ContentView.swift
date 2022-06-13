@@ -53,6 +53,7 @@ struct ContentView: View {
                   view: AnyView(GindiChartView(data: data)),
                   link: "https://github.com/danielgindi/Charts"),
             Chart(name: "SwiftUI Charts",
+                  view: AnyView(SwiftUIChartsView(data: data)),
                   link: "https://github.com/spacenation/swiftui-charts"),
             Chart(name: "AWLineChart",
                   view: AnyView(AWLineChartView(data: data)),

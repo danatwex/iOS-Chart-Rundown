@@ -32,7 +32,7 @@ struct ChartDetailView_Previews: PreviewProvider {
         let data: [(Double, Double)] =
             [(1, 1), (2, 2), (3, 4), (4, 1), (5, -2), (6, -1), (7, 1)]
         ChartDetailView(chart: Chart(name: "Charts",
-                                     view: AnyView(AWLineChartView(data: data)),
+                                     view: AnyView(SwiftUIChartsView(data: data)),
                                      link: "https://github.com/danielgindi/Charts"))
     }
 }

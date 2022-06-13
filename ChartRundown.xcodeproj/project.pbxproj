@@ -16,6 +16,18 @@
 		713DC6C72853C33900AB0051 /* GindiChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6C62853C33900AB0051 /* GindiChartView.swift */; };
 		713DC6CA2853CABC00AB0051 /* AWLineChart in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6C92853CABC00AB0051 /* AWLineChart */; };
 		713DC6CC2853CAED00AB0051 /* AWLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */; };
+		713DC6CF28577F3D00AB0051 /* SwiftUIChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6CE28577F3D00AB0051 /* SwiftUIChart.swift */; };
+		713DC6D128577F4600AB0051 /* AxisLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D028577F4600AB0051 /* AxisLabels.swift */; };
+		713DC6D328577F4E00AB0051 /* LineChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D228577F4E00AB0051 /* LineChartStyle.swift */; };
+		713DC6DB28577F7600AB0051 /* ChartStyleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D428577F7600AB0051 /* ChartStyleConfiguration.swift */; };
+		713DC6DC28577F7600AB0051 /* ChartStyleKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D528577F7600AB0051 /* ChartStyleKey.swift */; };
+		713DC6DD28577F7600AB0051 /* AnyChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D628577F7600AB0051 /* AnyChartStyle.swift */; };
+		713DC6DE28577F7600AB0051 /* View+ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D728577F7600AB0051 /* View+ChartStyle.swift */; };
+		713DC6DF28577F7600AB0051 /* LineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D828577F7600AB0051 /* LineType.swift */; };
+		713DC6E028577F7600AB0051 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6D928577F7600AB0051 /* ChartStyle.swift */; };
+		713DC6E128577F7600AB0051 /* Environment+ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6DA28577F7600AB0051 /* Environment+ChartStyle.swift */; };
+		713DC6E528577FC900AB0051 /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6E428577FC900AB0051 /* Shapes */; };
+		713DC6E7285780BB00AB0051 /* SwiftUIChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6E6285780BB00AB0051 /* SwiftUIChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +39,17 @@
 		713DC6C12853A0F700AB0051 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
 		713DC6C62853C33900AB0051 /* GindiChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GindiChartView.swift; sourceTree = "<group>"; };
 		713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWLineChartView.swift; sourceTree = "<group>"; };
+		713DC6CE28577F3D00AB0051 /* SwiftUIChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIChart.swift; sourceTree = "<group>"; };
+		713DC6D028577F4600AB0051 /* AxisLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisLabels.swift; sourceTree = "<group>"; };
+		713DC6D228577F4E00AB0051 /* LineChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartStyle.swift; sourceTree = "<group>"; };
+		713DC6D428577F7600AB0051 /* ChartStyleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyleConfiguration.swift; sourceTree = "<group>"; };
+		713DC6D528577F7600AB0051 /* ChartStyleKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyleKey.swift; sourceTree = "<group>"; };
+		713DC6D628577F7600AB0051 /* AnyChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyChartStyle.swift; sourceTree = "<group>"; };
+		713DC6D728577F7600AB0051 /* View+ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ChartStyle.swift"; sourceTree = "<group>"; };
+		713DC6D828577F7600AB0051 /* LineType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineType.swift; sourceTree = "<group>"; };
+		713DC6D928577F7600AB0051 /* ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyle.swift; sourceTree = "<group>"; };
+		713DC6DA28577F7600AB0051 /* Environment+ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Environment+ChartStyle.swift"; sourceTree = "<group>"; };
+		713DC6E6285780BB00AB0051 /* SwiftUIChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713DC6C52853AA3200AB0051 /* Charts in Frameworks */,
+				713DC6E528577FC900AB0051 /* Shapes in Frameworks */,
 				713DC6CA2853CABC00AB0051 /* AWLineChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +89,9 @@
 				713DC6B5285396ED00AB0051 /* ContentView.swift */,
 				713DC6C12853A0F700AB0051 /* ChartDetailView.swift */,
 				713DC6C62853C33900AB0051 /* GindiChartView.swift */,
+				713DC6E6285780BB00AB0051 /* SwiftUIChartsView.swift */,
 				713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */,
+				713DC6E228577F8800AB0051 /* SwiftUICharts */,
 				713DC6B7285396EF00AB0051 /* Assets.xcassets */,
 				713DC6B9285396EF00AB0051 /* Preview Content */,
 			);
@@ -78,6 +104,23 @@
 				713DC6BA285396EF00AB0051 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		713DC6E228577F8800AB0051 /* SwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				713DC6CE28577F3D00AB0051 /* SwiftUIChart.swift */,
+				713DC6D028577F4600AB0051 /* AxisLabels.swift */,
+				713DC6D228577F4E00AB0051 /* LineChartStyle.swift */,
+				713DC6D628577F7600AB0051 /* AnyChartStyle.swift */,
+				713DC6D928577F7600AB0051 /* ChartStyle.swift */,
+				713DC6D428577F7600AB0051 /* ChartStyleConfiguration.swift */,
+				713DC6D528577F7600AB0051 /* ChartStyleKey.swift */,
+				713DC6DA28577F7600AB0051 /* Environment+ChartStyle.swift */,
+				713DC6D828577F7600AB0051 /* LineType.swift */,
+				713DC6D728577F7600AB0051 /* View+ChartStyle.swift */,
+			);
+			path = SwiftUICharts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +142,7 @@
 			packageProductDependencies = (
 				713DC6C42853AA3200AB0051 /* Charts */,
 				713DC6C92853CABC00AB0051 /* AWLineChart */,
+				713DC6E428577FC900AB0051 /* Shapes */,
 			);
 			productName = ChartRundown;
 			productReference = 713DC6B0285396ED00AB0051 /* ChartRundown.app */;
@@ -131,6 +175,7 @@
 			packageReferences = (
 				713DC6C32853AA3200AB0051 /* XCRemoteSwiftPackageReference "Charts" */,
 				713DC6C82853CABC00AB0051 /* XCRemoteSwiftPackageReference "AWLineChart" */,
+				713DC6E328577FC900AB0051 /* XCRemoteSwiftPackageReference "swiftui-shapes" */,
 			);
 			productRefGroup = 713DC6B1285396ED00AB0051 /* Products */;
 			projectDirPath = "";
@@ -158,10 +203,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713DC6CF28577F3D00AB0051 /* SwiftUIChart.swift in Sources */,
 				713DC6B6285396ED00AB0051 /* ContentView.swift in Sources */,
+				713DC6DC28577F7600AB0051 /* ChartStyleKey.swift in Sources */,
+				713DC6D328577F4E00AB0051 /* LineChartStyle.swift in Sources */,
 				713DC6C22853A0F700AB0051 /* ChartDetailView.swift in Sources */,
+				713DC6DD28577F7600AB0051 /* AnyChartStyle.swift in Sources */,
+				713DC6E028577F7600AB0051 /* ChartStyle.swift in Sources */,
+				713DC6E128577F7600AB0051 /* Environment+ChartStyle.swift in Sources */,
 				713DC6B4285396ED00AB0051 /* ChartRundownApp.swift in Sources */,
 				713DC6CC2853CAED00AB0051 /* AWLineChartView.swift in Sources */,
+				713DC6DB28577F7600AB0051 /* ChartStyleConfiguration.swift in Sources */,
+				713DC6DF28577F7600AB0051 /* LineType.swift in Sources */,
+				713DC6DE28577F7600AB0051 /* View+ChartStyle.swift in Sources */,
+				713DC6E7285780BB00AB0051 /* SwiftUIChartsView.swift in Sources */,
+				713DC6D128577F4600AB0051 /* AxisLabels.swift in Sources */,
 				713DC6C72853C33900AB0051 /* GindiChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +435,14 @@
 				kind = branch;
 			};
 		};
+		713DC6E328577FC900AB0051 /* XCRemoteSwiftPackageReference "swiftui-shapes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-shapes";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -391,6 +455,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 713DC6C82853CABC00AB0051 /* XCRemoteSwiftPackageReference "AWLineChart" */;
 			productName = AWLineChart;
+		};
+		713DC6E428577FC900AB0051 /* Shapes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 713DC6E328577FC900AB0051 /* XCRemoteSwiftPackageReference "swiftui-shapes" */;
+			productName = Shapes;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
