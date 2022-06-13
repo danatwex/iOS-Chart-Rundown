@@ -14,6 +14,8 @@
 		713DC6C22853A0F700AB0051 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6C12853A0F700AB0051 /* ChartDetailView.swift */; };
 		713DC6C52853AA3200AB0051 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6C42853AA3200AB0051 /* Charts */; };
 		713DC6C72853C33900AB0051 /* GindiChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6C62853C33900AB0051 /* GindiChartView.swift */; };
+		713DC6CA2853CABC00AB0051 /* AWLineChart in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6C92853CABC00AB0051 /* AWLineChart */; };
+		713DC6CC2853CAED00AB0051 /* AWLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		713DC6BA285396EF00AB0051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		713DC6C12853A0F700AB0051 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
 		713DC6C62853C33900AB0051 /* GindiChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GindiChartView.swift; sourceTree = "<group>"; };
+		713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWLineChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713DC6C52853AA3200AB0051 /* Charts in Frameworks */,
+				713DC6CA2853CABC00AB0051 /* AWLineChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +65,7 @@
 				713DC6B5285396ED00AB0051 /* ContentView.swift */,
 				713DC6C12853A0F700AB0051 /* ChartDetailView.swift */,
 				713DC6C62853C33900AB0051 /* GindiChartView.swift */,
+				713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */,
 				713DC6B7285396EF00AB0051 /* Assets.xcassets */,
 				713DC6B9285396EF00AB0051 /* Preview Content */,
 			);
@@ -93,6 +98,7 @@
 			name = ChartRundown;
 			packageProductDependencies = (
 				713DC6C42853AA3200AB0051 /* Charts */,
+				713DC6C92853CABC00AB0051 /* AWLineChart */,
 			);
 			productName = ChartRundown;
 			productReference = 713DC6B0285396ED00AB0051 /* ChartRundown.app */;
@@ -124,6 +130,7 @@
 			mainGroup = 713DC6A7285396ED00AB0051;
 			packageReferences = (
 				713DC6C32853AA3200AB0051 /* XCRemoteSwiftPackageReference "Charts" */,
+				713DC6C82853CABC00AB0051 /* XCRemoteSwiftPackageReference "AWLineChart" */,
 			);
 			productRefGroup = 713DC6B1285396ED00AB0051 /* Products */;
 			projectDirPath = "";
@@ -154,6 +161,7 @@
 				713DC6B6285396ED00AB0051 /* ContentView.swift in Sources */,
 				713DC6C22853A0F700AB0051 /* ChartDetailView.swift in Sources */,
 				713DC6B4285396ED00AB0051 /* ChartRundownApp.swift in Sources */,
+				713DC6CC2853CAED00AB0051 /* AWLineChartView.swift in Sources */,
 				713DC6C72853C33900AB0051 /* GindiChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +371,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		713DC6C82853CABC00AB0051 /* XCRemoteSwiftPackageReference "AWLineChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tana90/AWLineChart";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -370,6 +386,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 713DC6C32853AA3200AB0051 /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = Charts;
+		};
+		713DC6C92853CABC00AB0051 /* AWLineChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 713DC6C82853CABC00AB0051 /* XCRemoteSwiftPackageReference "AWLineChart" */;
+			productName = AWLineChart;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

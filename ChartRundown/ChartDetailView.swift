@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Charts
 
 struct ChartDetailView: View {
 
@@ -16,8 +15,9 @@ struct ChartDetailView: View {
         VStack(alignment: .leading) {
             Text(chart.link)
                 .font(.subheadline)
-            chart.view
+            chart.view?
                 .frame(height: 250)
+//                .fixedSize()
             Spacer()
         }
         .padding(.all)
@@ -32,7 +32,7 @@ struct ChartDetailView_Previews: PreviewProvider {
         let data: [(Double, Double)] =
             [(1, 1), (2, 2), (3, 4), (4, 1), (5, -2), (6, -1), (7, 1)]
         ChartDetailView(chart: Chart(name: "Charts",
-                                     view: AnyView(GindiChartView(data: data)),
+                                     view: AnyView(AWLineChartView(data: data)),
                                      link: "https://github.com/danielgindi/Charts"))
     }
 }

@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "awlinechart",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tana90/AWLineChart",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bf09558410ed19009ac243304ad69001e3cafc67"
+      }
+    },
+    {
       "identity" : "charts",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/danielgindi/Charts",
