@@ -28,6 +28,24 @@
       }
     },
     {
+      "identity" : "stock-charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/denniscm190/stock-charts",
+      "state" : {
+        "revision" : "5a374cada5703ae6da1e11f1b28afed2cc96984c",
+        "version" : "1.2.9"
+      }
+    },
+    {
+      "identity" : "swiftcharts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanschuetz/SwiftCharts",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3d011f67eccb1ffa622fbfccb1348eed80309ae8"
+      }
+    },
+    {
       "identity" : "swiftui-shapes",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/spacenation/swiftui-shapes",

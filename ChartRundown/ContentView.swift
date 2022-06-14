@@ -62,6 +62,7 @@ struct ContentView: View {
                   view: AnyView(ChartViewView(data: data)),
                   link: "https://github.com/AppPear/ChartView"),
             Chart(name: "StockCharts",
+                  view: AnyView(StockChartsView(data: data)),
                   link: "https://github.com/denniscm190/stock-charts"),
             Chart(name: "SwiftCharts",
                   link: "https://github.com/ivanschuetz/SwiftCharts"),
