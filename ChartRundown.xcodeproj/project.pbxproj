@@ -33,6 +33,7 @@
 		713DC6EF2857B6C000AB0051 /* StockCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6EE2857B6C000AB0051 /* StockCharts */; };
 		713DC6F12857B6D400AB0051 /* StockChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DC6F02857B6D400AB0051 /* StockChartsView.swift */; };
 		713DC6F42857BA6C00AB0051 /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 713DC6F32857BA6C00AB0051 /* SwiftCharts */; };
+		715D73D52858C86D0025A50C /* SwiftChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D73D42858C86D0025A50C /* SwiftChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		713DC6E6285780BB00AB0051 /* SwiftUIChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChartsView.swift; sourceTree = "<group>"; };
 		713DC6EB2857AC6A00AB0051 /* ChartViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewView.swift; sourceTree = "<group>"; };
 		713DC6F02857B6D400AB0051 /* StockChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartsView.swift; sourceTree = "<group>"; };
+		715D73D42858C86D0025A50C /* SwiftChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				713DC6E6285780BB00AB0051 /* SwiftUIChartsView.swift */,
 				713DC6EB2857AC6A00AB0051 /* ChartViewView.swift */,
 				713DC6F02857B6D400AB0051 /* StockChartsView.swift */,
+				715D73D42858C86D0025A50C /* SwiftChartsView.swift */,
 				713DC6CB2853CAED00AB0051 /* AWLineChartView.swift */,
 				713DC6E228577F8800AB0051 /* SwiftUICharts */,
 				713DC6B7285396EF00AB0051 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 				713DC6B4285396ED00AB0051 /* ChartRundownApp.swift in Sources */,
 				713DC6CC2853CAED00AB0051 /* AWLineChartView.swift in Sources */,
 				713DC6DB28577F7600AB0051 /* ChartStyleConfiguration.swift in Sources */,
+				715D73D52858C86D0025A50C /* SwiftChartsView.swift in Sources */,
 				713DC6DF28577F7600AB0051 /* LineType.swift in Sources */,
 				713DC6DE28577F7600AB0051 /* View+ChartStyle.swift in Sources */,
 				713DC6E7285780BB00AB0051 /* SwiftUIChartsView.swift in Sources */,
